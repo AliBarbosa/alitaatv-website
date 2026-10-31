@@ -1,6 +1,6 @@
 // Edita este archivo para actualizar los enlaces y el contenido de la web.
 export const site = {
-  name: 'AlitaaTV', domain: 'www.alitaatv.com', email: 'contacto@alitaatv.com',
+  name: 'AlitaaTV', domain: 'www.alitaatv.com', email: 'web@alitaatv.com',
   twitch: 'https://www.twitch.tv/alitaatv',
   links: [
     { name: 'Discord', url: 'https://discord.gg/9BDYrWpPsM', icon: 'discord' },
