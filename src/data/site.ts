@@ -4,20 +4,18 @@ export const site = {
   twitch: 'https://www.twitch.tv/alitaatv',
   links: [
     { name: 'Discord', url: 'https://discord.gg/9BDYrWpPsM', icon: 'discord' },
-    { name: 'Patreon', url: 'https://www.patreon.com/cw/AlitaaTV', icon: 'patreon' },
     { name: 'Instagram', url: 'https://www.instagram.com/alitaatv', icon: 'instagram' },
     { name: 'Facebook', url: 'https://www.facebook.com/people/Alitaatv/61582213929665/', icon: 'facebook' },
     { name: 'YouTube', url: 'https://www.youtube.com/@alitaatv', icon: 'youtube' },
     { name: 'TikTok', url: 'https://www.tiktok.com/@alitaatv', icon: 'tiktok' },
   ],
-  featured: [
-    { title: 'YouTube Short 01', platform: 'YouTube', embed: 'https://www.youtube.com/embed/O06PDbXlJDY', url: 'https://www.youtube.com/shorts/O06PDbXlJDY' },
-    { title: 'YouTube Short 02', platform: 'YouTube', embed: 'https://www.youtube.com/embed/ZvfwUGueFdg', url: 'https://www.youtube.com/shorts/ZvfwUGueFdg' },
-    { title: 'YouTube Short', platform: 'YouTube', embed: 'https://www.youtube.com/embed/Ku40mPi8uf4', url: 'https://www.youtube.com/shorts/Ku40mPi8uf4' },
-  ],
+  mta: {
+    url: 'https://gta.alitaatv.com/',
+    discord: 'https://discord.com/invite/t2aY6DRaVe',
+    image: 'https://gta.alitaatv.com/img/capturas/freeroam.webp',
+  },
   support: {
-    patreon: 'https://www.patreon.com/cw/AlitaaTV',
-    tip: 'https://streamelements.com/alitaatv/tip',
+    tip: 'https://streamlabs.com/alitaatv1/tip',
   },
   socials: [
     { name: 'YouTube', url: 'https://www.youtube.com/@alitaatv' }, { name: 'TikTok', url: 'https://www.tiktok.com/@alitaatv' },
