@@ -2,12 +2,14 @@
 export const site = {
   name: 'AlitaaTV', domain: 'www.alitaatv.com', email: 'web@alitaatv.com',
   twitch: 'https://www.twitch.tv/alitaatv',
+  tape: ['ALITOS CREW', 'TWITCH STREAMER', 'GTA ONLINE', 'GAMING'],
   links: [
+    { name: 'Twitch', url: 'https://www.twitch.tv/alitaatv', icon: 'twitch' },
     { name: 'Discord', url: 'https://discord.gg/9BDYrWpPsM', icon: 'discord' },
     { name: 'Instagram', url: 'https://www.instagram.com/alitaatv', icon: 'instagram' },
-    { name: 'Facebook', url: 'https://www.facebook.com/people/Alitaatv/61582213929665/', icon: 'facebook' },
     { name: 'YouTube', url: 'https://www.youtube.com/@alitaatv', icon: 'youtube' },
     { name: 'TikTok', url: 'https://www.tiktok.com/@alitaatv', icon: 'tiktok' },
+    { name: 'Facebook', url: 'https://www.facebook.com/people/Alitaatv/61582213929665/', icon: 'facebook' },
   ],
   mta: {
     url: 'https://gta.alitaatv.com/',
@@ -17,8 +19,5 @@ export const site = {
   support: {
     tip: 'https://streamlabs.com/alitaatv1/tip',
   },
-  socials: [
-    { name: 'YouTube', url: 'https://www.youtube.com/@alitaatv' }, { name: 'TikTok', url: 'https://www.tiktok.com/@alitaatv' },
-    { name: 'Instagram', url: 'https://www.instagram.com/alitaatv' }, { name: 'Facebook', url: 'https://www.facebook.com/people/Alitaatv/61582213929665/' },
-  ],
+  setup: 'HP Omen 15 · RTX 2060 · 16 GB',
 };
