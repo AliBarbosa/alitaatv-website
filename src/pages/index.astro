@@ -29,7 +29,7 @@ const icons = {
   </div>
   <div class="hero-visual"><img src="/images/profile.png" alt="Ilustración de AlitaaTV sonriendo en su setup gamer" width="1024" height="1024" fetchpriority="high" /><div class="social-icons social-rail">{socials.map(link => <a href={link.url} target="_blank" rel="noreferrer" aria-label={link.name} title={link.name} set:html={icons[link.icon as keyof typeof icons]} />)}</div></div>
 </section>
-<p class="tape">{site.tape.map((item, index) => <>{index > 0 && <i aria-hidden="true">✦</i>}<span>{item}</span></>)}</p>
+<div class="tape"><div class="tape-track">{[0, 1].map(group => <p class="tape-group" aria-hidden={group > 0 ? 'true' : undefined}>{Array.from({ length: 4 }, () => site.tape).flat().map(item => <><span>{item}</span><i aria-hidden="true">✦</i></>)}</p>)}</div></div>
 <section class="server" id="server-mta">
   <a class="server-shot" href={site.mta.url} target="_blank" rel="noreferrer" aria-label="Ir a la web del server Los Alitos"><img src={site.mta.image} alt="Un jugador en una terraza de Las Venturas de noche, con las luces de los casinos de fondo" width="1280" height="720" loading="lazy" /></a>
   <div class="shell server-copy"><p class="label">LOS ALITOS · MTA:SA</p><h2>Server Mundo Abierto 2026</h2><p class="server-text">El server freeroam de la comunidad, con trabajos, casas, casino y eventos como carreras, shooter, deathmatch y más.</p><div class="actions"><a class="button cream" href={site.mta.url} target="_blank" rel="noreferrer">Conocé el server ↗</a><a class="button outline" href={site.mta.discord} target="_blank" rel="noreferrer">Discord MTA ↗</a></div></div>
